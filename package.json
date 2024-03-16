@@ -19,6 +19,16 @@
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "browser": "./browser/specific/main.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lib/index.js",
+      "require": "./dist/lib/index.js"
+    },
+    "./browser/specific/main.js": {
+      "import": "./browser/specific/main.js",
+      "require": "./browser/specific/main.js"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
