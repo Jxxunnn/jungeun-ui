@@ -16,8 +16,8 @@
     "url": "git://github.com/jxxunnn/jungeun-ui.git"
   },
   "version": "0.1.1",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
   "browser": "./browser/specific/main.js",
   "scripts": {
     "start": "react-scripts start",
