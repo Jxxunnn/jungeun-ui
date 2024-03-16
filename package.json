@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git://github.com/jxxunnn/jungeun-ui.git"
   },
-  "version": "0.1.1",
+  "version": "0.2.1",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "browser": "./browser/specific/main.js",
